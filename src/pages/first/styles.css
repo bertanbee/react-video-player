@@ -1,0 +1,67 @@
+h1 {
+    margin-top: 30px;
+}
+
+.player-video {
+    justify-content: center;
+    align-items: center;
+    background-color: #080808;
+    border-radius: 12px;
+    vertical-align: middle;
+    margin-top: 66px;
+    box-shadow: -1px 0px 30px 6px rgba(0,0,0,0.62);
+}
+
+.video-screen {
+    height: 360px;
+    width: 720px;
+}
+
+.video-controllers {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #292929, #121212);
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    padding: 6px;
+}
+
+.buttons-left {
+    width: 84%;
+    color: white;
+    display: flex;
+}
+
+.progress-bar {
+    background-color: yellow;
+    height: 2px;
+    width: 98%;
+    margin-left: 1%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.hover-class {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.hover-class:hover {
+    color: yellow;
+    transition: 0.5s;
+}
+
+#play-button {
+    margin-left: 12px;
+}
+
+p {
+    margin-left: 36px;
+}
+
+#volume {
+    margin-right: 60px;
+}
